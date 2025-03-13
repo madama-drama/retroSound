@@ -1,0 +1,58 @@
+.headerBlock {
+  width: 90%;
+  min-height: 102px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 64px;
+  padding-left: 58px;
+  padding-right: 10px;
+
+  background-color: rgba(20, 22, 21, 1);
+  border-radius: 100px;
+}
+
+.nameSite {
+  all: unset;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.item {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.active {
+  text-decoration: underline rgba(255, 255, 255, 1);
+}
+
+.buttonPersonalAccount {
+  all: unset;
+  height: 81px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(22, 88, 77, 1);
+  border-radius: 100px;
+
+  font-size: 1.5rem;
+}

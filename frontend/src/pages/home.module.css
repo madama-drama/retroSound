@@ -1,0 +1,81 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.position {
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 71px;
+}
+
+.img {
+  width: 892px;
+  z-index: 1;
+}
+
+.blockWithTitle {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  margin-top: -100px;
+  z-index: 10;
+}
+
+.title {
+  all: unset;
+
+  font-weight: 600;
+  font-size: 7.6rem;
+  font-family: "InterTight";
+
+  color: rgba(118, 117, 117);
+}
+
+.secondHalfOfTitle {
+  margin-left: auto;
+  text-align: end;
+}
+
+.previewBlock {
+  width: 250px;
+  margin-left: 45px;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.preview {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 25px;
+  color: rgba(9, 9, 9, 1);
+}
+
+.toCatalog {
+  all: unset;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgba(243, 243, 243, 1);
+  text-align: center;
+
+  min-width: 280px;
+  min-height: 100px;
+  margin-top: 21px;
+  background-color: rgba(22, 88, 77, 1);
+  border-radius: 100px;
+
+  cursor: pointer;
+}

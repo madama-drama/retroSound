@@ -1,0 +1,69 @@
+.catalogBlock {
+  background-color: rgba(20, 22, 21, 1);
+}
+
+.filterAndSearchBlock {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchInCatalog {
+  width: 300px;
+  height: 50px;
+  margin-right: 20px;
+
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 50px;
+  background-color: rgba(20, 22, 21, 1);
+
+  font-family: "InterTight";
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 15px;
+}
+
+.searchResult {
+  display: block;
+  background-color: rgba(20, 22, 21, 1);
+  box-shadow: 0 0 10px rgba(20, 22, 21, 1);
+}
+
+.searchItem {
+  font-family: "InterTight";
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.cards {
+  padding: 0 45px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 45px;
+  position: relative;
+}
+
+.buttonToTop {
+  all: unset;
+
+  width: 100px;
+  height: 100px;
+  background-color: rgba(22, 88, 77, 1);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(20, 22, 21, 1);
+}
