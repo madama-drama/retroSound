@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "InterTight";
+  src: url("./fonts/Inter_Tight/static/InterTight-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "InterTight";
+  src: url("./fonts/Inter_Tight/static/InterTight-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "InterTight";
+  src: url("./fonts/Inter_Tight/static/InterTight-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "InterTight";
+  src: url("./fonts/Inter_Tight/static/InterTight-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+html {
+  font-size: 13px;
+  font-family: "InterTight";
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 11px;
+  }
+}
