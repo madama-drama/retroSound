@@ -1,0 +1,29 @@
+.modalBlock {
+  width: 1200px;
+  height: 704px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 40px;
+  overflow: hidden;
+
+}
+
+.s{
+  position: relative;
+}
+
+.closeButton{
+  all: unset;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  cursor: pointer;
+}
+
